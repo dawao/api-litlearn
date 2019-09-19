@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "articles",
+  "info": {
+    "name": "article",
+    "description": "语篇"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "questions": {
+      "collection": "question",
+      "via": "article"
+    }
+  }
+}

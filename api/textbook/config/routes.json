@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/textbooks",
+      "handler": "Textbook.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/textbooks/count",
+      "handler": "Textbook.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/textbooks/:id",
+      "handler": "Textbook.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/textbooks",
+      "handler": "Textbook.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/textbooks/:id",
+      "handler": "Textbook.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/textbooks/:id",
+      "handler": "Textbook.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "connection": "default",
+  "collectionName": "mytests",
+  "info": {
+    "name": "mytest",
+    "description": "我的测试成绩记录表"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "trainee": {
+      "model": "trainee"
+    },
+    "word": {
+      "type": "string"
+    },
+    "listen": {
+      "type": "string"
+    },
+    "high": {
+      "type": "string"
+    },
+    "grammar": {
+      "type": "string"
+    },
+    "article": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "score": {
+      "type": "integer"
+    },
+    "textbook": {
+      "model": "textbook"
+    }
+  }
+}

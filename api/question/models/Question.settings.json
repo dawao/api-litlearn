@@ -1,0 +1,37 @@
+{
+  "connection": "default",
+  "collectionName": "questions",
+  "info": {
+    "name": "question",
+    "description": "语句型试题"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "sentence": {
+      "model": "sentence"
+    },
+    "grammar": {
+      "model": "grammar"
+    },
+    "right": {
+      "type": "string"
+    },
+    "wrong": {
+      "type": "string"
+    },
+    "article": {
+      "model": "article",
+      "via": "questions"
+    },
+    "key": {
+      "type": "string"
+    }
+  }
+}

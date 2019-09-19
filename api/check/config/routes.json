@@ -1,0 +1,21 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/checks",
+      "handler": "Check.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/checks/:id",
+      "handler": "Check.findOne",
+      "config": {
+        "policies": []
+      }
+    }
+
+  ]
+}

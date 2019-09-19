@@ -1,0 +1,40 @@
+{
+  "connection": "default",
+  "collectionName": "mywords",
+  "info": {
+    "name": "myword",
+    "description": "我的单词，过一次所选择教材前的单词产生"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "time": {
+      "type": "integer"
+    },
+    "wrong": {
+      "type": "integer"
+    },
+    "review": {
+      "type": "integer"
+    },
+    "unknown": {
+      "type": "boolean"
+    },
+    "learned": {
+      "type": "boolean"
+    },
+    "learnedate": {
+      "type": "date"
+    },
+    "deal": {
+      "model": "deal",
+      "via": "mywords"
+    }
+  }
+}

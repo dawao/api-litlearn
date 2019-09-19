@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "appearances",
+  "info": {
+    "name": "appearance",
+    "description": "单词出现在教材的哪个单元"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "textbook": {
+      "model": "textbook"
+    },
+    "unit": {
+      "type": "integer"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

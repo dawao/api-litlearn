@@ -1,0 +1,41 @@
+{
+  "connection": "default",
+  "collectionName": "trainees",
+  "info": {
+    "name": "trainee",
+    "description": "学员账户信息"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "sno": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "gender": {
+      "enum": [
+        "boy",
+        "girl"
+      ],
+      "type": "enumeration"
+    },
+    "school": {
+      "type": "string"
+    },
+    "grade": {
+      "type": "integer"
+    },
+    "user": {
+      "model": "user",
+      "plugin": "users-permissions"
+    }
+  }
+}

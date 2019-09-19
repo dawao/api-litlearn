@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mywords",
+      "handler": "Myword.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mywords/count",
+      "handler": "Myword.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mywords/:id",
+      "handler": "Myword.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mywords",
+      "handler": "Myword.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mywords/:id",
+      "handler": "Myword.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mywords/:id",
+      "handler": "Myword.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

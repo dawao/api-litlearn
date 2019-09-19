@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "sentences",
+  "info": {
+    "name": "sentence",
+    "description": "语句"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "tag": {
+      "type": "string"
+    }
+  }
+}

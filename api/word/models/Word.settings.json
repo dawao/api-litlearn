@@ -1,0 +1,42 @@
+{
+  "connection": "default",
+  "collectionName": "words",
+  "info": {
+    "name": "word",
+    "description": "单词"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "spell": {
+      "type": "string",
+      "default": ""
+    },
+    "frequency": {
+      "type": "integer"
+    },
+    "symbol": {
+      "type": "string"
+    },
+    "meanings": {
+      "collection": "meaning",
+      "via": "word"
+    },
+    "audio": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}

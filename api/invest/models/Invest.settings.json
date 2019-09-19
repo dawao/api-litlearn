@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "invests",
+  "info": {
+    "name": "invest",
+    "description": "培训机构充值退费记录表"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "agency": {
+      "model": "agency"
+    },
+    "money": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "date"
+    },
+    "remark": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/grammars",
+      "handler": "Grammar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/grammars/count",
+      "handler": "Grammar.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/grammars/:id",
+      "handler": "Grammar.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/grammars",
+      "handler": "Grammar.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/grammars/:id",
+      "handler": "Grammar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/grammars/:id",
+      "handler": "Grammar.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

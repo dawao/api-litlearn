@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/appearances",
+      "handler": "Appearance.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/appearances/count",
+      "handler": "Appearance.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/appearances/:id",
+      "handler": "Appearance.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/appearances",
+      "handler": "Appearance.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/appearances/:id",
+      "handler": "Appearance.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/appearances/:id",
+      "handler": "Appearance.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

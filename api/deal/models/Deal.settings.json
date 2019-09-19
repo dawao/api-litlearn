@@ -1,0 +1,43 @@
+{
+  "connection": "default",
+  "collectionName": "deals",
+  "info": {
+    "name": "deal",
+    "description": "成交信息"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "agency": {
+      "model": "agency"
+    },
+    "trainee": {
+      "model": "trainee"
+    },
+    "textbook": {
+      "model": "textbook"
+    },
+    "begin": {
+      "type": "date"
+    },
+    "score": {
+      "type": "integer"
+    },
+    "running": {
+      "type": "boolean"
+    },
+    "money": {
+      "type": "integer"
+    },
+    "mywords": {
+      "collection": "myword",
+      "via": "deal"
+    }
+  }
+}

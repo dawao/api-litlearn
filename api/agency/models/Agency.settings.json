@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "agencies",
+  "info": {
+    "name": "agency",
+    "description": "培训机构信息"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "balance": {
+      "type": "integer"
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "connection": "default",
+  "collectionName": "meanings",
+  "info": {
+    "name": "meaning",
+    "description": "词性 英，中，词义"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "pos": {
+      "enum": [
+        "n",
+        "v",
+        "adj",
+        "pron",
+        "num",
+        "adv",
+        "art",
+        "prep",
+        "conj",
+        "int"
+      ],
+      "type": "enumeration"
+    },
+    "chinese": {
+      "type": "string"
+    },
+    "word": {
+      "model": "word",
+      "via": "meanings"
+    }
+  }
+}

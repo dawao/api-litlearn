@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "videos",
+  "info": {
+    "name": "video",
+    "description": "视频课"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "grammar": {
+      "model": "grammar"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "textbooks",
+  "info": {
+    "name": "textbook",
+    "description": "教材"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "grade": {
+      "type": "integer"
+    },
+    "term": {
+      "type": "integer"
+    }
+  }
+}

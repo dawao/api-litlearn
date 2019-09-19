@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/meanings",
+      "handler": "Meaning.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/meanings/count",
+      "handler": "Meaning.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/meanings/:id",
+      "handler": "Meaning.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/meanings",
+      "handler": "Meaning.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/meanings/:id",
+      "handler": "Meaning.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/meanings/:id",
+      "handler": "Meaning.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
