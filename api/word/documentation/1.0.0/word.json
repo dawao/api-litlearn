@@ -639,6 +639,12 @@
                 "type": "string"
               }
             }
+          },
+          "fortry": {
+            "type": "boolean"
+          },
+          "blank": {
+            "type": "string"
           }
         }
       },
@@ -659,6 +665,12 @@
             "items": {
               "type": "string"
             }
+          },
+          "fortry": {
+            "type": "boolean"
+          },
+          "blank": {
+            "type": "string"
           }
         }
       }

@@ -562,6 +562,12 @@
               },
               "image": {
                 "type": "string"
+              },
+              "fortry": {
+                "type": "boolean"
+              },
+              "blank": {
+                "type": "string"
               }
             }
           }

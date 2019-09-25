@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "09/19/2019 11:23:34 AM"
+    "x-generation-date": "09/24/2019 5:28:51 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -10602,6 +10602,12 @@
                 },
                 "key": {
                   "type": "string"
+                },
+                "grade": {
+                  "type": "integer"
+                },
+                "term": {
+                  "type": "integer"
                 }
               }
             }
@@ -10680,9 +10686,6 @@
             ],
             "properties": {
               "id": {
-                "type": "string"
-              },
-              "sno": {
                 "type": "string"
               },
               "name": {
@@ -10934,6 +10937,12 @@
               },
               "image": {
                 "type": "string"
+              },
+              "fortry": {
+                "type": "boolean"
+              },
+              "blank": {
+                "type": "string"
               }
             }
           }
@@ -10978,9 +10987,6 @@
             ],
             "properties": {
               "id": {
-                "type": "string"
-              },
-              "sno": {
                 "type": "string"
               },
               "name": {
@@ -11227,6 +11233,12 @@
           },
           "key": {
             "type": "string"
+          },
+          "grade": {
+            "type": "integer"
+          },
+          "term": {
+            "type": "integer"
           }
         }
       },
@@ -11249,6 +11261,12 @@
           },
           "key": {
             "type": "string"
+          },
+          "grade": {
+            "type": "integer"
+          },
+          "term": {
+            "type": "integer"
           }
         }
       },
@@ -11318,9 +11336,6 @@
           "id": {
             "type": "string"
           },
-          "sno": {
-            "type": "string"
-          },
           "name": {
             "type": "string"
           },
@@ -11377,9 +11392,6 @@
       },
       "NewTrainee": {
         "properties": {
-          "sno": {
-            "type": "string"
-          },
           "name": {
             "type": "string"
           },
@@ -11574,6 +11586,12 @@
                 "type": "string"
               }
             }
+          },
+          "fortry": {
+            "type": "boolean"
+          },
+          "blank": {
+            "type": "string"
           }
         }
       },
@@ -11594,6 +11612,12 @@
             "items": {
               "type": "string"
             }
+          },
+          "fortry": {
+            "type": "boolean"
+          },
+          "blank": {
+            "type": "string"
           }
         }
       },

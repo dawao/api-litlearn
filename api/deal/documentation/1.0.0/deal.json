@@ -549,9 +549,6 @@
               "id": {
                 "type": "string"
               },
-              "sno": {
-                "type": "string"
-              },
               "name": {
                 "type": "string"
               },

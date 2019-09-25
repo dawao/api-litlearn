@@ -37,6 +37,12 @@
       "model": "file",
       "via": "related",
       "plugin": "upload"
+    },
+    "fortry": {
+      "type": "boolean"
+    },
+    "blank": {
+      "type": "string"
     }
   }
 }

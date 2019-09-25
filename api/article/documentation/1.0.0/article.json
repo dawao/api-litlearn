@@ -546,6 +546,12 @@
                 },
                 "key": {
                   "type": "string"
+                },
+                "grade": {
+                  "type": "integer"
+                },
+                "term": {
+                  "type": "integer"
                 }
               }
             }

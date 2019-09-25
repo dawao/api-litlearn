@@ -516,9 +516,6 @@
           "id": {
             "type": "string"
           },
-          "sno": {
-            "type": "string"
-          },
           "name": {
             "type": "string"
           },
@@ -575,9 +572,6 @@
       },
       "NewTrainee": {
         "properties": {
-          "sno": {
-            "type": "string"
-          },
           "name": {
             "type": "string"
           },
